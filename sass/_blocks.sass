@@ -1,0 +1,152 @@
+@import "bourbon/bourbon"
+@import "sass/_custom"
+
+/*Внешние блоки*/
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.25
+	font-family: "PTSansRegular", sans-serif
+	overflow-x: hidden
+	background-color: #fff
+
+.page
+	&__first
+		height: 624px
+		background-image: url(../img/desktop/bkg1_dskt.jpg)
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		padding-top: 23px
+		overflow: hidden
+	&__p-first
+		position: relative
+		padding-bottom: 39px
+	&__p-online
+		padding-top: 25px
+		position: relative
+		padding-left: 100px
+		padding-right: 100px
+		margin-bottom: 68px
+	&__p-healyourself
+		border: 1px solid #e1041e
+		border-top: none
+		position: relative
+		margin-bottom: 25px
+		&::before
+			content: ''
+			width: 83px
+			height: 1px
+			background-color: #e1041e
+			display: block
+			position: absolute
+			left: 0
+			top: 0
+		&::after
+			content: ''
+			width: 83px
+			height: 1px
+			background-color: #e1041e
+			display: block
+			position: absolute
+			right: 0
+			top: 0
+	&__p-programs
+		margin-bottom: 32px
+	&__p-participate
+	&__p-firstimg
+		position: absolute
+		bottom: 0
+		z-index: 2
+		&-left
+			right: 93%
+		&-right
+			left: 93%
+	&__second
+	&__p-advantages
+		padding-top: 75px
+		padding-bottom: 38px
+	&__zag
+	&__title
+		position: relative
+		text-align: center
+		&::before
+			content: ''
+			height: 1px
+			left: 0
+			right: 0
+			background-color: #e1041e
+			display: block
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			-webkit-transform: translateY(-50%)
+			z-index: 1
+			text-align: center
+		span
+			position: relative
+			z-index: 2
+			padding-left: 9px
+			padding-right: 9px
+			background-color: #fff
+			display: inline-block
+			font-size: 48px
+			color: #e1041e
+			font-family: "InsetFHeavy", sans-serif
+
+	&__p-data
+		padding-bottom: 5px
+	&__third
+		position: relative
+		&::before
+			content: ''
+			width: 50%
+			display: block
+			background-color: #f2f3f4
+			top: 0
+			bottom: 0
+			left: 0
+			display: block
+			position: absolute
+		&::after
+			content: ''
+			width: 50%
+			display: block
+			background-color: #a6d2d1
+			top: 0
+			bottom: 0
+			right: 0
+			display: block
+			position: absolute
+		&::after
+		&-bg
+			display: block
+			width: 100%
+			background-image: url(../img/desktop/bkg2_dskt.jpg)
+			position: relative
+			background-repeat: no-repeat
+			background-position: center center
+			background-size: auto 100%
+			position: relative
+			z-index: 2
+			img
+				display: block
+				width: 100%
+				height: auto
+		&-wp
+			position: relative
+			z-index: 2
+			padding-top: 32px
+			padding-bottom: 28px
+		&-img
+			position: absolute
+			left: 5%
+			top: 50%
+			transform: translateY(-50%)
+			-webkit-transform: translateY(-50%)
+			img
+				display: block
+				width: 70%
+	&__p-info

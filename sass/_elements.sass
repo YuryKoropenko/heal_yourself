@@ -1,0 +1,250 @@
+@import "bourbon/bourbon"
+@import "sass/_blocks"
+
+/*Компоненты*/
+
+.p-online
+  text-align: center
+  &__link
+    display: inline-block
+    position: absolute
+    left: 0
+    top: 0
+  &__logo
+    display: block
+  strong
+    font-family: "PTSansBold", sans-serif
+    font-size: 24px
+    line-height: 28px
+    color: #000
+    text-transform: uppercase
+  span
+    color: #e1041e
+    font-family: "PTSansBold", sans-serif
+    font-size: 42px
+    line-height: 28px
+    position: relative
+    top: 9px
+    margin-left: 3px
+
+.p-healyourself
+  text-align: center
+  padding-bottom: 15px
+  padding-top: 58px
+  position: relative
+  &__title
+    font-family: "InsetFHeavy", sans-serif
+    font-size: 74px
+    color: #e1041e
+    padding-left: 10px
+    padding-right: 10px
+    display: inline-block
+    position: absolute
+    left: 0
+    right: 0
+    top: -50%
+    transform: translateY(50%)
+    -webkit-transform: translateY(50%)
+  &__text
+    padding-left: 50px
+    padding-right: 50px
+    color: #010000
+    font-size: 28px
+    line-height: 34px
+    font-family: "PTSansBold", sans-serif
+    display: block
+
+.p-programs
+  font-size: 0
+  text-align: center
+  &__item
+    width: 258px
+    display: inline-block
+    padding: 6px
+    font-size: 20px
+    line-height: 24px
+    color: #010101
+    background-color: rgba(#fff,.32)
+    border: 1px solid #c17e87
+    border-radius: 8px
+    margin: 0 46px
+    position: relative
+    &::before
+      content: '*'
+      color: #e1041e
+      font-family: "PTSansBold", sans-serif
+      font-size: 42px
+      line-height: 42px
+      position: absolute
+      top: -9px
+      left: -5px
+
+.p-participate
+  text-align: center
+  &__btn
+    padding: 0 20px
+    line-height: 75px
+    display: inline-block
+    height: 75px
+    font-size: 24px
+    color: #000
+    font-family: "PTSansBold", sans-serif
+    text-decoration: none
+    background-color: #ece411
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75)
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75)
+    border-radius: 40px
+    &:hover
+      box-shadow: none
+      -moz-box-shadow: none
+      -moz-box-shadow: none
+  &__data
+    display: block
+    font-size: 24px
+    font-family: "PTSansBold", sans-serif
+    color: #4e1118
+    text-transform: uppercase
+    padding-top: 10px
+
+.p-firstimg
+  display: block
+
+.p-advantages
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  justify-content: space-between
+  &__item
+    width: 252px
+    text-align: center
+  &__top
+    height: 150px
+    display: block
+    text-align: center
+  &__img
+    max-height: 100%
+    width: auto
+    display: inline-block
+  &__title
+    color: #000
+    font-size: 30px
+    font-family: "PTSansBold", sans-serif
+    line-height: 34px
+    display: block
+    text-transform: uppercase
+  &__sign
+    font-size: 60px
+    font-family: "PTSansBold", sans-serif
+    padding-top: 30px
+
+.p-data
+  width: 100%
+  display: -webkit-flex
+  display: -ms-flex
+  display: flex
+  justify-content: space-between
+  margin-bottom: 15px
+  &__day
+    font-size: 30px
+    color: #000
+    text-transform: uppercase
+    font-family: "PTSansBold", sans-serif
+  &__data
+    font-size: 30px
+    color: #000
+    text-transform: uppercase
+    font-family: "PTSansBold", sans-serif
+
+.p-info
+  &__list
+  &__item
+    padding-left: 37px
+    position: relative
+    font-size: 18px
+    color: #000
+    margin-bottom: 15px
+    &:nth-child(1)
+      margin-left: 21px
+    &:nth-child(2)
+      margin-left: 29px
+    &:nth-child(3)
+      margin-left: 34px
+    &:nth-child(4)
+      margin-left: 40px
+    &:nth-child(5)
+      margin-left: 37px
+    &:nth-child(6)
+      margin-left: 28px
+    &:nth-child(7)
+      margin-left: 21px
+    &:nth-child(8)
+      margin-left: 12px
+    &:nth-child(9)
+      margin-left: 0
+    &::before
+      content: ''
+      display: block
+      width: 15px
+      height: 15px
+      border-radius: 50%
+      border: 2px solid #e1041e
+      position: absolute
+      left: 0
+      top: 6px
+    strong
+      font-family: "PTSansBold", sans-serif
+    ul
+      display: block
+      margin-left: 18px
+      margin-top: 12px
+      li
+        padding-left: 15px
+        position: relative
+        font-size: 18px
+        color: #000
+        display: block
+        &::before
+          content: ''
+          display: block
+          width: 6px
+          height: 6px
+          background-color: #e1041e
+          border-radius: 50%
+          -webkit-border-radius: 50%
+          padding: 0
+          position: absolute
+          left: 0
+          top: 11px
+
+.p-result
+  border: 2px solid #e1041e
+  border-left: none
+  border-right: none
+  padding-bottom: 10px
+  padding-top: 30px
+  position: relative
+  text-align: center
+  margin-top: 60px
+  &__title
+    display: block
+    text-align: center
+    position: absolute
+    bottom: 100%
+    left: 0
+    right: 0
+    transform: translateY(50%)
+    -webkit-transform: translateY(50%)
+    span
+      color: #e1041e
+      font-size: 30px
+      padding-left: 6px
+      padding-right: 6px
+      background-color: #a6d2d1
+      text-transform: uppercase
+      display: inline-block
+      font-family: "PTSansBold", sans-serif
+  &__text
+    color: #000
+    font-size: 24px
+    font-family: "PTSansBold", sans-serif

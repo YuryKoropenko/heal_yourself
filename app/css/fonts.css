@@ -1,0 +1,29 @@
+/* font-family: "PTSansRegular" */
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("../fonts/PT_Sans-Web-Regular.ttf");
+}
+
+/* font-family: "PTSansBold" */
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PT_Sans-Web-Bold.ttf");
+}
+
+/* font-family: "PTSansBoldItalic" */
+@font-face {
+  font-family: "PTSansBoldItalic";
+  src: url("../fonts/PT_Sans-Web-BoldItalic.ttf");
+}
+
+/* font-family: "PTSansItalic" */
+@font-face {
+  font-family: "PTSansItalic";
+  src: url("../fonts/PT_Sans-Web-Italic.ttf");
+}
+
+/* font-family: "InsetFHeavy" */
+@font-face {
+  font-family: "InsetFHeavy";
+  src: url("../fonts/Inset_F_Heavy.ttf");
+}
